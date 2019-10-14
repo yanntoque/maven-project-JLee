@@ -55,7 +55,7 @@
     <connection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</connection>
     <url>scm:git:git@github.com:yanntoque/maven-project-JLee.git</url>
     <developerConnection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>v@{project.version}</tag>
   </scm>
 
   <modules>
@@ -74,7 +74,9 @@
       </plugin>
 
       <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
+        <version>2.5.3</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <tagNameFormat>v@{project.version}</tagNameFormat>
@@ -149,11 +151,6 @@
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>2.4</version>
-        </plugin>
-
-        <plugin>
-          <artifactId>maven-release-plugin</artifactId>
-          <version>2.5.3</version>
         </plugin>
 
         <plugin>
