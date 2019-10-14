@@ -1,12 +1,11 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.1</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://www.example.com</url>
@@ -56,7 +55,8 @@
     <connection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</connection>
     <url>scm:git:git@github.com:yanntoque/maven-project-JLee.git</url>
     <developerConnection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</developerConnection>
- </scm>
+   <tag>maven-project-0.0.1</tag>
+  </scm>
 
   <modules>
     <module>server</module>
