@@ -55,7 +55,6 @@
     <connection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</connection>
     <url>scm:git:git@github.com:yanntoque/maven-project-JLee.git</url>
     <developerConnection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</developerConnection>
-    <tag>v@{project.version}</tag>
   </scm>
 
   <modules>
@@ -77,6 +76,7 @@
         <artifactId>maven-release-plugin</artifactId>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
+          <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
       </plugin>
 
