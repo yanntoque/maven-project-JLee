@@ -51,12 +51,12 @@
     <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
   </properties>
 
-  <scm>
+  <!-- <scm>
     <connection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</connection>
     <url>scm:git:git@github.com:yanntoque/maven-project-JLee.git</url>
     <developerConnection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</developerConnection>
     <tag>v@{project.version}</tag>
-  </scm>
+  </scm> -->
 
   <modules>
     <module>server</module>
@@ -78,7 +78,7 @@
         <artifactId>maven-release-plugin</artifactId>
         <version>2.5.3</version>
         <configuration>
-          <dryRun>true</dryRun>
+          <!-- <dryRun>true</dryRun> -->
           <autoVersionSubmodules>true</autoVersionSubmodules>
           <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
