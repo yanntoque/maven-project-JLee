@@ -58,10 +58,27 @@
     <tag>v@{project.version}</tag>
   </scm>
 
-  <modules>
-    <module>server</module>
-    <module>webapp</module>
-  </modules>
+  <profiles>
+    <profile>
+      <id>app</id>
+      <modules>
+        <module>webapp</module>
+        <module>server</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>webapp</id>
+      <modules>
+        <module>webapp</module>
+      </modules>
+    </profile>
+    <profile>
+      <id>server</id>
+      <modules>
+        <module>server</module>
+      </modules>
+    </profile>
+  </profiles>
 
   <build>
     <plugins>
