@@ -8,7 +8,6 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://www.example.com</url>
 
   <!-- From where downloads are made  -->
   <repositories>
