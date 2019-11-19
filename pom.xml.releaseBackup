@@ -51,11 +51,11 @@
   </properties>
 
   <scm>
-    <connection>scm:git:http://github.com/yanntoque/maven-project-JLee.git</connection>
-    <url>scm:git:http://github.com/yanntoque/maven-project-JLee.git</url>
-    <developerConnection>scm:git:http://github.com/yanntoque/maven-project-JLee.git</developerConnection>
-    <tag>http@{project.version}</tag>
-   </scm>
+    <connection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</connection>
+    <url>scm:git:git@github.com:yanntoque/maven-project-JLee.git</url>
+    <developerConnection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</developerConnection>
+    <tag>v0.0.1</tag>
+  </scm>
 
   <profiles>
     <profile>
@@ -95,7 +95,7 @@
         <version>2.5.3</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
-          <tagNameFormat>http@{project.version}</tagNameFormat>
+          <tagNameFormat>v@{project.version}</tagNameFormat>
         </configuration>
       </plugin>
 
