@@ -54,7 +54,6 @@
     <connection>scm:git:http://github.com/yanntoque/maven-project-JLee.git</connection>
     <url>scm:git:http://github.com/yanntoque/maven-project-JLee.git</url>
     <developerConnection>scm:git:http://github.com/yanntoque/maven-project-JLee.git</developerConnection>
-    <tag>http@{project.version}</tag>
    </scm>
 
   <profiles>
