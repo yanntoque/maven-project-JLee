@@ -5,7 +5,7 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.1</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
 
@@ -54,7 +54,7 @@
     <connection>scm:git:http://github.com/yanntoque/maven-project-JLee.git</connection>
     <url>scm:git:http://github.com/yanntoque/maven-project-JLee.git</url>
     <developerConnection>scm:git:http://github.com/yanntoque/maven-project-JLee.git</developerConnection>
-     <tag>http0.0.1</tag>
+     <tag>HEAD</tag>
   </scm>
 
   <profiles>
