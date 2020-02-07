@@ -5,7 +5,7 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>maven-project</artifactId>
   <packaging>pom</packaging>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>Maven Project</name>
   <description>Sample Maven project with a working, deployable site.</description>
 
@@ -51,10 +51,10 @@
   </properties>
 
   <scm>
-    <connection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</connection>
-    <url>scm:git:git@github.com:yanntoque/maven-project-JLee.git</url>
-    <developerConnection>scm:git:git@github.com:yanntoque/maven-project-JLee.git</developerConnection>
-    <tag>test-@{project.version}</tag>
+    <connection>scm:git:http://github.com/yanntoque/maven-project-JLee.git</connection>
+    <url>scm:git:http://github.com/yanntoque/maven-project-JLee.git</url>
+    <developerConnection>scm:git:http://github.com/yanntoque/maven-project-JLee.git</developerConnection>
+     <tag>HEAD</tag>
   </scm>
 
   <profiles>
@@ -92,10 +92,10 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-release-plugin</artifactId>
-        <version>2.5.3</version>
+        <version>3.0.0-M1</version>
         <configuration>
           <autoVersionSubmodules>true</autoVersionSubmodules>
-          <tagNameFormat>test-@{project.version}</tagNameFormat>
+          <tagNameFormat>http@{project.version}</tagNameFormat>
         </configuration>
       </plugin>
 
